@@ -5,8 +5,8 @@ export class Calculator {
   
     divide(a: number, b: number) {
       if (b === 0) {
-        // return null;
-        return undefined;
+        return null;
+        // return undefined;
       }
       return a / b;
     }
