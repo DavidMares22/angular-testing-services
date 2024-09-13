@@ -1,5 +1,5 @@
 import faker from 'faker';
-import { Product } from './product.models';
+import { Product } from './product.model';
  
 export const generateOneProduct = (): Product => {
   return {
