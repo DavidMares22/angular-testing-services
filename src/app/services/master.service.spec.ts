@@ -14,7 +14,6 @@ describe('MasterService', () => {
 
     TestBed.configureTestingModule({
       providers: [
-        // we are telling MasterService to resolve ValieService with the spy
         MasterService,
         { provide: ValueService, useValue: spy }
       ]
